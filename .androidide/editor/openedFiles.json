@@ -1,0 +1,350 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/data/FriendInfo.java",
+      "selection": {
+        "end": {
+          "column": 10,
+          "index": 168,
+          "line": 12
+        },
+        "start": {
+          "column": 10,
+          "index": 168,
+          "line": 12
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/helper/ClassHelper.java",
+      "selection": {
+        "end": {
+          "column": 45,
+          "index": 1027,
+          "line": 42
+        },
+        "start": {
+          "column": 45,
+          "index": 1027,
+          "line": 42
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/friend/impl/FriendDataServiceImpl.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 984,
+          "line": 37
+        },
+        "start": {
+          "column": 1,
+          "index": 984,
+          "line": 37
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/message/IMessageService.java",
+      "selection": {
+        "end": {
+          "column": 3,
+          "index": 222,
+          "line": 8
+        },
+        "start": {
+          "column": 3,
+          "index": 222,
+          "line": 8
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/log/Logger.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/message/impl/MessageServiceImpl.java",
+      "selection": {
+        "end": {
+          "column": 4,
+          "index": 546,
+          "line": 18
+        },
+        "start": {
+          "column": 4,
+          "index": 546,
+          "line": 18
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/xposed/BaseApplicationImplHook.java",
+      "selection": {
+        "end": {
+          "column": 7,
+          "index": 464,
+          "line": 20
+        },
+        "start": {
+          "column": 7,
+          "index": 464,
+          "line": 20
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/utils/UinAndUidUtil.java",
+      "selection": {
+        "end": {
+          "column": 2,
+          "index": 733,
+          "line": 27
+        },
+        "start": {
+          "column": 2,
+          "index": 733,
+          "line": 27
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/friend/IFriendDataService.java",
+      "selection": {
+        "end": {
+          "column": 37,
+          "index": 91,
+          "line": 3
+        },
+        "start": {
+          "column": 37,
+          "index": 91,
+          "line": 3
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/data/CardInfo.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 130,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "index": 130,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/data/TroopInfo.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 10414,
+          "line": 402
+        },
+        "start": {
+          "column": 1,
+          "index": 10414,
+          "line": 402
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/event/RobotEvent.java",
+      "selection": {
+        "end": {
+          "column": 19,
+          "index": 405,
+          "line": 16
+        },
+        "start": {
+          "column": 19,
+          "index": 405,
+          "line": 16
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/HookEnvironInfo.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/xposed/HookEntry.java",
+      "selection": {
+        "end": {
+          "column": 10,
+          "index": 1322,
+          "line": 49
+        },
+        "start": {
+          "column": 10,
+          "index": 1322,
+          "line": 49
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/xposed/TargetVersionCode.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/xposed/TargetVersionInfo.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/utils/ToastUtil.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/message/impl/MessageSend.java",
+      "selection": {
+        "end": {
+          "column": 32,
+          "index": 190,
+          "line": 6
+        },
+        "start": {
+          "column": 32,
+          "index": 190,
+          "line": 6
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/config/ConfigManager.java",
+      "selection": {
+        "end": {
+          "column": 26,
+          "index": 296,
+          "line": 12
+        },
+        "start": {
+          "column": 26,
+          "index": 296,
+          "line": 12
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/annotation/ClassInformation.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/annotation/HookMethod.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Sky/.androidide/editor/openedFiles.json",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Sky/app/src/main/java/com/rebel/sky/helper/ClassHelper.java"
+}
