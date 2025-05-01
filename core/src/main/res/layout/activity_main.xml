@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="80dp"
+         android:layout_width="match_parent"
+         android:background="#FFFFFFFF"
+         android:orientation="horizontal">
+
+        <TextView
+             android:layout_height="40dp"
+             android:layout_width="100dp"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FF484747"
+             android:layout_marginTop="10dp"
+             android:text="QSky"
+             android:textStyle="bold" />
+
+        <TextView
+             android:layout_height="match_parent"
+             android:layout_width="150dp"
+             android:layout_marginBottom="10dp"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textSize="15sp"
+             android:layout_marginLeft="-100dp"
+             android:textColor="#FF777777"
+             android:layout_marginTop="40dp"
+             android:text="谁错过了那个她?"
+             android:textStyle="bold|italic|normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

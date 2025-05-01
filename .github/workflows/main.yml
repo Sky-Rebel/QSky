@@ -1,0 +1,56 @@
+- 名称：Rational Performance Tester GitHub Action
+  # 您可以固定到确切的提交或版本。
+  # 使用：IBM/devopsauto-perftest-actions@01df3e50f975ce359966c15da94a9279a2d50504
+  用途：IBM/devopsauto-perftest-actions@v1
+  和：
+    # Eclipse 工作区的完整路径，如果未指定配置文件则需要
+    工作区：
+    # 工作区内要使用的项目名称，如果未指定配置文件，则需要
+    项目：
+    # 指定从项目到测试的相对路径，包括测试文件名。测试可以是性能测试、进度测试或复合测试，如果未指定 configFile，则为必填项。
+    套房：
+    # 本地安装中 IMShared 文件夹的路径（如果其不在默认位置）。执行代理将在此处放置插件和产品依赖项，如果未指定配置文件，则需要此路径。
+    imShared: #可选
+    # 使用此选项指定包含测试运行参数的文件的完整路径。如果指定了配置文件，则无需填写其他字段。
+    configFile: #可选
+    # 您可以使用此选项来指定费率表中各个阶段的持续时间
+    持续时间：#可选
+    # 您可以使用此选项指定存储导出的 HTTP 测试日志的文件目录路径。运行多个测试时，可以提供多个参数条目。必须使用冒号分隔参数条目。例如：c:/logexport.txt:c:/secondlogexport.txt
+    exportLog: #可选
+    # 您可以使用此选项指定以逗号分隔的报告 ID 列表，以及 exportstats 或 exportstatshtml，以列出要导出的报告（以替换默认报告或“首选项”下选定的报告）。要检索报告 ID，请导航至“窗口”>“首选项”>“测试”>“性能测试报告”>“从 Rational Performance Tester 导出报告”，在“选择要导出的报告”下选择所需的报告，然后单击“将 ID 复制到剪贴板”。
+    导出统计报告列表：
+    # 使用此选项提供可用于以逗号分隔值 (CSV) 格式存储导出报告的目录的完整路径。
+    exportStats: # 可选
+    # 使用此选项输入要导出的报告的一种或多种格式，并以逗号作为分隔符。选项包括 simple.csv、full.csv、simple.json、full.json、csv 和 json。当要以 json 或 csv 格式导出简单报告和完整报告时，可以指定 json 或 csv 作为选项。报告将保存到 exportStats 字段中指定的位置。此字段必须与 exportStats 字段结合使用。
+    导出统计格式：
+    # 使用此选项提供可用于导出 Web 分析结果的目录的完整路径。您可以在 Web 浏览器上分析结果，而无需使用 Rational Performance Tester。
+    导出统计信息Html：
+    # 使用此选项为测试结果添加标签。要为测试结果添加多个标签，必须使用逗号分隔每个标签。
+    标签：#可选
+    # 如果未从 Rational Performance Tester 中的计划编辑器启用“来自服务的资源监控”选项，请使用此选项为性能计划启用“来自服务的资源监控”选项，忽略性能计划中设置的资源监控源并更改为标签匹配模式，替换性能计划中设置的现有资源监控标签集，并使用一组新的资源监控标签运行计划。
+    overrideRmLabels: #可选
+    # 是否覆盖同名结果文件。默认值为 false，表示创建新结果文件。如果为 true，则覆盖原文件并保留原文件名。
+    覆盖：#可选
+    # 您可以使用此选项将测试结果发布到服务器。格式为：serverURL#project.name=projectName&teamspace.name=teamspaceName。如果项目或团队空间的名称包含特殊字符，则必须将其替换为 %<Hex_value_of_special_character>。
+    发布：#可选
+    # 使用此选项根据测试的完成状态发布测试结果。支持的值为 FAIL、PASS、INCONCLUSIVE、ERROR、ALL。
+    publishFor: # 可选
+    # 使用此选项将特定测试结果发布到 Rational Test Automation Server。支持的值为 STATS、TESTLOG。
+    publishReports: # 可选
+    # 使用此选项指定您希望速率运行器组中的工作负载达到的速率。例如，“速率运行器组 1=1/s, 3/m”，其中，速率运行器组 1 是包含两个阶段的速率运行器组的名称。第一阶段的期望速率为每秒迭代一次，第二阶段的期望速率为每分钟迭代三次。
+    费率：#可选
+    # 当您想要查看测试或计划运行期间发生的所有事件的记录时，请使用此选项。支持的值为 jaeger、testlog 和 null
+    reportHistory: #可选
+    # 使用此选项指定结果文件的名称。结果文件的默认名称是测试或计划名称加上时间戳。您必须指定一个与项目相关的文件夹名称来存储测试结果。
+    结果：#可选
+    # 使用此选项在测试或计划运行期间替换数据集值。您必须确保原始数据集和新数据集位于同一工作区中，并具有相同的列名。您还必须包含数据集的路径。例如，/project_name/ds_path/ds_filename.csv:/project_name/ds_path/new_ds_filename.csv'
+    swapDatasets: # 可选
+    # 使用此选项添加您想要在报告的用户评论行中显示的文本。
+    用户评论：#可选
+    # 覆盖运行中的默认虚拟用户数。对于计划，默认值为计划编辑器中指定的用户数。对于测试，默认值为 1 个用户。
+    用户：#可选
+    # 使用此选项指定包含变量初始化的 XML 文件的完整路径。
+    varFile: # 可选
+    # 使用此选项为控制播放的 Java 进程指定 Java 最大堆大小。例如，当您输入值 -Xmx4096m 时，它将最大堆大小指定为 4GB。
+    vmArgs: # 可选
+          

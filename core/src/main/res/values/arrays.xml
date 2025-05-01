@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string-array name="xposed_scope">
+		
+		#QQ
+        <item>com.tencent.mobileqq</item>
+		
+    </string-array>
+	
+	#任何项目贡献者皆可键名于此
+	<string-array name="app_title">
+		
+		#Application Name
+		<item>QSky</item>
+		
+		#Project Contributor
+		<item>Bit</item>
+		<item>Sky-Rebel</item>
+		
+		#Other Customization
+		#Restate Sintonizzati
+		
+    </string-array>
+	
+	#注意字数控制，以免文字超出
+    <string-array name="app_sub_title">
+		
+		#韩语(我爱你)
+        <item>사랑해</item>
+		
+		#汉语(谁曾有过那段遗憾)
+		<item>谁错过了那个她</item>
+		
+		#俄语(我想你)
+		<item>Я скучаю по тебе</item>
+		
+    </string-array>
+	
+</resources>
