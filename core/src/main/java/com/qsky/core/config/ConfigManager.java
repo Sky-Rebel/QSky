@@ -1,5 +1,7 @@
 package com.qsky.core.config;
 
+import android.annotation.SuppressLint;
+
 import com.qsky.core.logger.Logger;
 
 import org.json.JSONException;
@@ -27,6 +29,7 @@ public class ConfigManager
 	
 	private static final String DATA_ROOT_DIR = "/storage/emulated/0/QSky/";
 
+    @SuppressLint("SuspiciousIndentation")
     private static void init()
 	{
 		try

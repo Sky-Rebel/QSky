@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Test"
+rootProject.name = "QSky"
 include(":app")
-include(":xposed")
 include(":core")
+include(":xposed")

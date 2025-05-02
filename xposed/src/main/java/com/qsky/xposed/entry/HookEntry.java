@@ -1,26 +1,20 @@
 package com.qsky.xposed.entry;
 
-import android.os.Handler;
-import android.os.Looper;
-
 import com.qsky.core.annotation.ClassInformation;
-import com.qsky.core.config.ConfigManager;
 import com.qsky.core.logger.Logger;
 import com.qsky.xposed.HookEnv;
 import com.qsky.xposed.actions.detection.AntiDetectionCentral;
 import com.qsky.xposed.actions.loading.BaseApplicationHook;
 import com.qsky.xposed.actions.loading.QFixApplicationHook;
 import com.qsky.xposed.actions.message.BaseMessageManagerHook;
-import com.qsky.xposed.event.server.RobotOnOffLineEvent;
-import com.qsky.xposed.utils.version.TargetVersionInfo;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /*
  * 也许有一天你不再记得我，关于我们之间所有的所有，没关系只要你幸福就好。
